@@ -1,0 +1,175 @@
+/* Հիմնական կարգավորումներ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  padding:  0;
+  background-color: black;
+  /* z-index: 999; */
+  /* position: fixed; */
+}
+
+.h2-span{
+  color: red;
+}
+.header-logo {
+  width: 100px;
+  height: 100px;
+  transition: all 0.3s ease;
+}
+
+.size {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.li:hover{
+  color: #FFC222;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav {
+  width: 70%;
+}
+
+.home, .li {
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover{
+  color: #FFC222;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+
+#ic1 {
+  color: white;
+  font-size: 22px;
+}
+
+#ic1:hover {
+  cursor: pointer;
+  color: #FFC222;
+  transition: 0.3s;
+}
+
+/* Media Queries */
+
+/* Մեծ էկրաններ (Galaxy Z Fold 5 unfolded) */
+@media screen and (max-width: 2208px) and (min-width: 1768px) {
+  .header-logo {
+      width: 100px;
+      height: 100px;
+  }
+
+  ul {
+      font-size: 50px;
+  }
+
+  #ic1{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:1440px) {
+  ul{
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  #ic1{
+    font-size: 20px;
+  }
+}
+
+/* Foldable սարքեր */
+@media screen and (max-width: 1024px) {
+  ul{
+       font-size: 17px;
+       margin-top: -5px;
+
+  }
+
+  #ic1{
+     font-size: 17px;
+  }
+}
+
+/* Միջին չափերի սարքեր */
+@media screen and (max-width: 768px) {
+  .header-logo {
+      width: 80px;
+      height: 80px;
+  }
+
+  ul {
+      font-size: 15px;
+      margin-top: -5px;
+      margin-left: 8px;
+  }
+
+    #ic1{
+      font-size: 15px;
+      margin-left: 6px;
+    }
+  
+}
+
+/* Փոքր էկրաններ */
+@media screen and (max-width: 425px) {
+  .header-logo {
+      width: 60px;
+      height: 60px;
+  }
+
+  ul {
+      font-size: 14px;
+      margin-top: -5px;
+      margin-left: 3px;
+  }
+#ic1{
+  font-size: 15px;
+  margin-left: 3px;
+}
+  
+}
+
+/* Շատ փոքր էկրաններ */
+@media screen and (max-width: 320px) {
+  .header-logo {
+      width: 40px;
+      height: 40px;
+  }
+
+  ul {
+      font-size: 10px;
+      margin-top: -5px;
+  }
+   
+  #ic1{
+    font-size: 10px;
+
+  }
+
+}

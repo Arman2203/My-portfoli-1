@@ -1,0 +1,306 @@
+/* Հիմնական Media Query (Desktop) */
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #3C3C3C;
+    margin-top: 50px;
+}
+
+.footer-top {
+    width: 100%;
+    height: 300px;
+    border-bottom: 3px solid white;
+}
+
+.cont-footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cub-footer {
+    width: 300px;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#ic-footer {
+    font-size: 55px;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+.footer-h2 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.footer-p {
+    margin-top: 20px;
+}
+
+.cont-footer2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cub-footer2 {
+    width: 300px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.p-footer {
+    margin-top: 10px;
+}
+
+#i-footer {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#ic-footer2 {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.p-footer2 {
+    margin-left: 35px;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.p-footer3 {
+    margin-left: 25px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        height: auto; /* Բարձրությունը կախված է բովանդակությունից */
+        padding-bottom: 20px;
+        
+    }
+
+    .footer-top {
+        height: auto;
+        border-bottom: 2px solid white;
+        padding-bottom: 20px;
+        
+    }
+
+    .cont-footer {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%; /* Նեղացնում ենք բաժինը */
+    }
+
+    .cub-footer {
+        width: 100%; /* Յուրաքանչյուր կուբ ամբողջությամբ գրավում է տարածքը */
+        margin: 0 auto;
+    }
+
+    #ic-footer {
+        font-size: 40px; /* Նվազեցնում ենք պատկերանիշի չափսը */
+    }
+
+    .footer-h2 {
+        font-size: 30px;
+    }
+
+    .footer-p {
+        font-size: 20px;
+        width: 50%;
+        margin: auto;
+    }
+
+    .cont-footer2 {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .cub-footer2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #i-footer {
+        font-size: 18px;
+        margin-right: 85px;
+    }
+
+    #ic-footer2 {
+        font-size: 20px;
+        margin-right: 225px;
+        margin-top: 20px;
+    }
+
+    .p-footer, .p-footer2, .p-footer3 {
+        font-size: 12px;
+        margin-left: 25px;
+    }
+}
+
+/* Էկրանների համար (768px և փոքր) */
+@media screen and (max-width: 768px) {
+    .cont-footer {
+        width: 100%;
+    }
+
+    .cont-footer2 {
+        width: 100%;
+    }
+
+    #ic-footer {
+        font-size: 35px;
+    }
+
+    .footer-h2 {
+        font-size: 18px;
+    }
+
+    .footer-p {
+        font-size: 11px;
+    }
+}
+
+/* Էկրանների համար (480px և փոքր) */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .cub-footer {
+        padding: 10px;
+    }
+
+    .footer-h2 {
+        font-size: 16px;
+    }
+
+    .footer-p {
+        font-size: 10px;
+    }
+
+    #ic-footer {
+        font-size: 30px;
+    }
+
+    #ic-footer2 {
+        font-size: 18px;
+    }
+}
+/* Էկրանների համար (375px և փոքր) */
+@media screen and (max-width: 375px) {
+    .footer {
+        padding: 8px; /* Փոքրացվում է padding-ը */
+    }
+
+    .cub-footer {
+        width: 90%; /* Քիչ ավելի նեղ */
+        padding: 8px;
+        margin: 0 auto;
+    }
+
+    .footer-h2 {
+        font-size: 18px; /* Թույլ կերպով փոքրացված */
+    }
+
+    .footer-p {
+        font-size: 11px; /* Կարդացվող, բայց ավելի փոքր */
+    }
+
+    #ic-footer {
+        font-size: 32px; /* Նվազեցնում ենք պատկերանիշի չափսը */
+    }
+
+    #ic-footer2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    #i-footer {
+        font-size: 14px;
+        margin-right: 60px;
+    }
+
+    .cont-footer, .cont-footer2 {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px; /* Ավելի փոքր բացվածք */
+    }
+
+    .p-footer, .p-footer2, .p-footer3 {
+        font-size: 11px;
+    }
+}
+
+
+/* Էկրանների համար (320px և փոքր) */
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 5px;
+    }
+
+    .cub-footer {
+        padding: 5px;
+        width: 70%;
+    }
+    .cub-footer2{
+        width: 100%;
+    }
+
+    .footer-h2 {
+        font-size: 20px;
+    }
+
+    .footer-p {
+        font-size: 15px;
+        margin-top: 10px;
+       
+    }
+
+    #ic-footer {
+        font-size: 35px;
+        margin-left: 5px;
+    }
+
+    
+    #i-footer{
+        margin-right: 75px;
+        font-size: 12px;
+    }
+
+    #ic-footer2{
+        margin-right: 240px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+   
+
+    .p-footer,  .p-footer3 {
+        font-size: 12px;
+     
+    }
+    .p-footer2{
+        font-size: 12px;
+        
+    }
+
+    .cont-footer, .cont-footer2 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

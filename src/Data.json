@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Մարտկոց Everbright D",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 240,
+        "thumbnail": "https://tntesakan.am/assets/images/product/090120201452525f4e2804687b2LXMKQJ.jpg",
+        "quantity" : 1
+      },
+      {
+        "id": 2,
+        "title": "Everbright 2A",
+        "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "price": 100,
+        "thumbnail": "https://tntesakan.am/assets/images/product/090120201531325f4e3114705566tYm6b.jpg",
+        "quantity" : 1
+      },
+      {
+        "id": 3,
+        "title": "Uniross AAx2",
+        "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+        "price": 200,
+        "thumbnail": "https://tntesakan.am/assets/images/product/090120201904285f4e62fc7dc42sX5VCh.jpg",
+        "quantity" : 1
+      },
+      {
+        "id": 4,
+        "title": "Unicross AA",
+        "description": "OPPO F19 is officially announced on April 2021.",
+        "price": 80,
+        "thumbnail": "https://tntesakan.am/assets/images/product/090120201912245f4e64d809a2eoPwsRl.png",
+        "quantity" : 1
+      },
+      {
+        "id": 5,
+        "title": "Երկարացման լար 3մ",
+        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "price": 1300,
+        "thumbnail": "https://tntesakan.am/assets/images/product/090120201923025f4e6756d8c48Hal0zc.jpg",
+        "quantity" : 1
+      },
+      {
+        "id": 6,
+        "title": "Լամպ լուսադիոդային 60w",
+        "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+        "price": 350,
+        "thumbnail": "https://tntesakan.am/assets/images/product/0121202211010961ea5a354ddc0YEQ317.jpg",
+        "quantity" : 1
+      },
+      {
+        "id": 7,
+        "title": "Լամպ 150w",
+        "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+        "price": 1499,
+        "thumbnail": "https://tntesakan.am/assets/images/product/04062022112701624d40c511590Ls7ieX.png",
+        "quantity" : 1
+      }
+    ]
+  }
